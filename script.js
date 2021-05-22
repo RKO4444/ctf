@@ -1,20 +1,20 @@
-Cookies.set("cookie1", 1);
+Cookies.set("cookie1", "a");
 var myCookie=Cookies.get("cookie1");
 
 
-if(myCookie==2)
+if(myCookie=="b")
 {
 document.querySelector("h1").innerHTML = "hello1";
 
 
 }
-if(myCookie==3)
+if(myCookie=="c")
 {
 document.querySelector("h1").innerHTML = "hello3";
 
 
 }
-if(myCookie==4)
+if(myCookie=="d")
 {
 document.querySelector("h1").innerHTML = "hello4";
 
