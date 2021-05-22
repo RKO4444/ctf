@@ -1,4 +1,7 @@
 Cookies.set("cookie1", "abc");
+Cookies.set("cookie1", "b");
+Cookies.set("cookie1", "c");
+Cookies.set("cookie1", "d");
 var myCookie=Cookies.get("cookie1");
 
 
