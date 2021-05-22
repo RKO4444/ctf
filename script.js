@@ -1,4 +1,4 @@
-Cookies.set("cookie1", "a");
+Cookies.set("cookie1", "abc");
 var myCookie=Cookies.get("cookie1");
 
 
