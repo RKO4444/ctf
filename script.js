@@ -2,13 +2,13 @@ Cookies.set("cookie1", "1");
 var myCookie=Cookies.get("cookie1");
 
 
-if(myCookie==2)
+if(myCookie=="2")
 {
 document.querySelector("h1").innerHTML = "hello1";
 
 
 }
-if(myCookie==3)
+if(myCookie=="3")
 {
 document.querySelector("h1").innerHTML = "hello3";
 
